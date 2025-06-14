@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  font-size: 10px;
+  --color-white: #ffffff;
+  --color-grey: #9c9c9c;
+  --color-green: #0a8772;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+button {
+  height: 3.3rem;
+  border-radius: 3rem;
+  min-width: 11.4rem;
+  cursor: pointer;
+}
+
+.btn {
+  border: 1px solid var(--color-green);
+  color: var(--color-white);
+  background-color: var(--color-green);
+}
+
+.btn-disable {
+  color: var(--color-white);
+  border-color: var(--color-grey);
+  background: var(--color-grey);
+}
+
+.btn-exit {
+  background-color: var(--color-white);
+  color: var(--color-grey);
+  border-color: var(--color-grey);
+}
+
+.max-width {
+  max-width: 100%;
+}

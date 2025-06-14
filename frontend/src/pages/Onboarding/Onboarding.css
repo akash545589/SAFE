@@ -1,0 +1,8 @@
+.onboarding-left {
+  width: 46.2rem;
+  background-color: var(--color-green);
+}
+
+.onboarding-right {
+  width: calc(100% - 46.2rem);
+}
