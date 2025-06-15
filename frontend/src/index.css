@@ -16,6 +16,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 p,
 h1,
 h2,
@@ -26,14 +31,22 @@ h6 {
   line-height: 1.4;
 }
 
+h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
 .container {
   max-width: 144rem;
   margin: 0 auto;
 }
 
 p {
-  font-weight: 400;
+  font-family: "Montserrat";
   font-size: 1.6rem;
+  margin-top: 1.5rem;
 }
 
 button {

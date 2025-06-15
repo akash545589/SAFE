@@ -1,0 +1,23 @@
+.onboarding-left {
+  width: 46.2rem;
+  height: 100vh;
+  background-color: var(--color-green);
+  position: relative;
+}
+.inner-content {
+  padding: 4.5rem;
+  padding-inline: 5rem;
+}
+.logo-image {
+  max-width: 19.5rem;
+}
+.onboarding-left h6 {
+  color: var(--color-white);
+}
+.onboarding-left p {
+  color: var(--color-white);
+}
+.mountain-image {
+  position: absolute;
+  bottom: 0;
+}
